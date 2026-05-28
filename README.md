@@ -153,6 +153,20 @@ Value and Q models have larger errors due to the scale and difficulty of return 
 
 ![Return Distribution](assets/return_distribution_overlay.png)
 
+
+## Demo Videos
+
+The following rollout videos visualize the qualitative behavior of different policies.
+
+| Demo | Description | Video |
+|---|---|---|
+| Random Policy | Random actions fail to solve the relocation task. | [random_expert1000.mp4](assets/videos/random_expert1000.mp4) |
+| BC Policy | Behavior cloning policy successfully completes the task. | [bc_expert1000.mp4](assets/videos/bc_expert1000.mp4) |
+| Planning-WV | World-model-guided planning completes the task and improves trajectory quality. | [planning_wv_expert1000.mp4](assets/videos/planning_wv_expert1000.mp4) |
+
+The videos provide qualitative evidence for the experiment. Random actions fail to solve the task, while both BC Policy and Planning-WV successfully complete object relocation. Planning-WV further improves the trajectory quality compared with direct BC execution.
+
+
 ## Installation
 
 Create a conda environment:
