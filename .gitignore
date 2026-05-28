@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Conda / environment
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Large datasets
+data/
+*.npz
+*.hdf5
+*.h5
+
+# Checkpoints and logs
+checkpoints/
+checkpoints_*/
+logs/
+logs_*/
+*.pt
+*.pth
+*.ckpt
+
+# Videos
+*.mp4
+*.avi
+*.mov
+reports/videos*/
+reports/videos_expert1000*/
+reports/videos_expert1000_enhanced*/
+
+# Temporary reports
+/tmp/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

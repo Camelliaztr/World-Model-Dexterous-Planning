@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+pyyaml
+tqdm
+torch
+gymnasium
+gymnasium-robotics
+minari
+imageio
+imageio-ffmpeg
+pillow
+tabulate
